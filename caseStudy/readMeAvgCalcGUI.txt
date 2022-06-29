@@ -1,0 +1,7 @@
+To find the desired averages (average number of months until death, average total cost to treat a person, average cost per years of life lived , average age of the patient at death)
+we must parse a file as user input and extract data.  This is done inside of the tkinter GUI and begins with a screen one'root' which requires file location.  When clicking enter button
+file parsing is handled by 'calculateAverages' function.  Exception handling is implemented here if error occurs in this function keeping user limited to screen one until valid file location
+is input.  Once this occurs screen two is displayed asking which of the four averages the user would like and if they want statistics saved to a file in the same directory as the source data.
+Again once clicking the enter button the user is sent to a screen three which will display the statistics that they requested.  Additional, it is possible to repeat any step there may be
+multiple screen twos or threes if the user has multiple source files or wants different information displayed on each screen three.  Note that when entering screen three data is always saved
+to the same file and will overwrite the previous file.  It is possible to change this is that if this file already exists to create a different file.  Although this is not currently implemented.

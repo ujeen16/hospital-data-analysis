@@ -1,0 +1,6 @@
+patient averages
+--------------------
+497.64 average cost per year of life lived
+3109.39 average cost to treat a patient
+74.98 average number of months until death
+490.92 averaged age of patient at death(in months)
